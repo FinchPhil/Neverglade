@@ -1,10 +1,10 @@
 {
   "version": {
     "didShowWelcome [default: false]": true,
-    "check [default: true]": true
+    "check [default: true]": false
   },
   "ui": {
-    "showUpdateInfo [default: true]": true,
+    "showUpdateInfo [default: true]": false,
     "useModrinthForUpdates [default: false]": false,
     "forceBetterXPreset [default: true]": true,
     "suppressExperimentalDialogOnLoad [default: false]": false,

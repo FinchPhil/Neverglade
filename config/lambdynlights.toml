@@ -24,12 +24,16 @@ mode = "fancy"
 			[light_sources.settings.entities.minecraft]
 				chicken = true
 				bee = true
+				axolotl = true
+				arrow = true
 				cow = true
 				chest_minecart = true
 				pig = true
+				allay = true
 				skeleton = true
 				husk = true
 				bat = true
+				area_effect_cloud = true
 				rabbit = true
 				zombie = true
 				armor_stand = true

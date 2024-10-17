@@ -91,7 +91,7 @@ _version = 2
 			updateBranch = "AUTO"
 			#
 			# Automatically check for updates on game launch?
-			enableAutoUpdater = true
+			enableAutoUpdater = false
 			#
 			# Should Distant Horizons silently, automatically download and install new versions?
 			enableSilentUpdates = false

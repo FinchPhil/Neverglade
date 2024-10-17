@@ -5,7 +5,7 @@
 	#Range: 0.0 ~ 1.0
 	anvil_break_chance = 0.05
 	#Edit name tags without cost nor anvil, simply by sneak + right-clicking.
-	edit_name_tags_no_anvil = true
+	edit_name_tags_no_anvil = false
 	#Allow using iron blocks to repair an anvil by one damage stage. Can be automated using dispensers.
 	anvil_repairing = true
 	#The naming field in anvils and the name tag gui will support formatting codes for setting custom text colors and styles.

@@ -1,1 +1,5 @@
-{}
+{
+  "battery_tracker": {
+    "switch_states": true
+  }
+}
