@@ -20,5 +20,8 @@
 *.jar
 *.nbt
 *.log
+*.dat
+*.dat_old
+*.sqlite
 
 **/*cache*
