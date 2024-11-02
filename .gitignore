@@ -16,6 +16,8 @@
 /irisUpdateInfo.json
 /options.txt
 
+/config/minihud
+
 *.zip
 *.jar
 *.nbt
