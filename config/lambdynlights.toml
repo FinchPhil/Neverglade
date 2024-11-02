@@ -28,6 +28,7 @@ mode = "fancy"
 				arrow = true
 				cow = true
 				chest_minecart = true
+				tropical_fish = true
 				pig = true
 				allay = true
 				skeleton = true
@@ -60,22 +61,24 @@ mode = "fancy"
 
 			[light_sources.settings.entities.naturalist]
 				zebra = true
-				boar = true
-				robin = true
 				snail = true
-				butterfly = true
-				giraffe = true
 				coral_snake = true
 				cardinal = true
+				vulture = true
+				boar = true
+				robin = true
+				tortoise = true
+				butterfly = true
+				giraffe = true
 				lizard = true
 				elephant = true
 				finch = true
-				vulture = true
 
 			[light_sources.settings.entities.graveyard]
 				skeleton_creeper = true
 
 			[light_sources.settings.entities.promenade]
+				sunken_skeleton = true
 				duck = true
 
 			[light_sources.settings.entities.friendsandfoes]
