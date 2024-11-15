@@ -6,7 +6,7 @@ allowVeryToastedBread = true
 compressedCowJarMilkMultiplier = 9.0
 
 # If true, a cow can be squished into a Milk Jar by dropping an anvil on top.
-cowJarEnabled = true
+cowJarEnabled = false
 
 # The amount of milk the cow in a jar generates per tick.
 cowJarMilkPerTick = 1
