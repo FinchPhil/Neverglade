@@ -37,6 +37,10 @@
 	immortal_dogs = true
 	#When enabled, dog can play tag with you. To make them play, throw a snowball at them.
 	play_tag_with_dog = true
+	#By default, Injured Dogs won't block portal, allowing them to
+	#be brought back from another dimension. Enable this
+	#to make Injured Dogs still block portals.
+	injured_dog_block_portal = false
 	#Option to prevent dogs from accidentally going into a portal and get
 	#unnecessary transferred to another dimension, causing the owner to have
 	#to take them back. The preferred way to make a dog go to another dimension is
