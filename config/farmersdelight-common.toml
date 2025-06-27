@@ -17,6 +17,7 @@
 	canvasSignDarkBackgroundList = ["gray", "purple", "blue", "brown", "green", "red", "black"]
 	#Should the Wandering Trader sell some of this mod's items? (Currently includes crop seeds and onions)
 	wanderingTraderSellsFDItems = true
+
 #Farming
 [farming]
 	#Should tomato vines be able to climb any rope tagged as farmersdelight:ropes?
@@ -24,10 +25,12 @@
 	enableTomatoVineClimbingTaggedRopes = true
 	#Which rope should Tomato Vines leave behind when mined by hand?
 	defaultTomatoVineRope = "farmersdelight:rope"
+
 #Recipe book
 [recipe_book]
 	#Should the Cooking Pot have a Recipe Book available on its interface?
 	enableRecipeBookCookingPot = true
+
 #Vanilla item overrides
 [overrides]
 	#Should Rabbit Stew grant users the jumping prowess of a rabbit when eaten?
@@ -43,38 +46,46 @@
 		enableStackableSoupItems = true
 		#List of BowlFoodItems. They must extend this class to be affected. Default: vanilla soups and stews.
 		soupItemList = ["minecraft:mushroom_stew", "minecraft:beetroot_soup", "minecraft:rabbit_stew"]
+
 #World generation
 [world]
 	#Should this mod add some of its items (ropes, seeds, knives, meals etc.) as extra chest loot across Minecraft?
 	generateFDChestLoot = true
-	#Generate Compost Heaps across all village biomes
+	#Should FD generate Compost Heaps across all village biomes?
 	genVillageCompostHeaps = true
+	#Should FD crops show up planted randomly in various village farms?
+	genFDCropsOnVillageFarms = true
 
 	#Sea Beet generation
 	[world.wild_beetroots]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 30
+
 	#Tomato Vines generation
 	[world.wild_tomatoes]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 100
+
 	#Wild Cabbage generation
 	[world.wild_cabbages]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 30
+
 	#Wild Onion generation
 	[world.wild_onions]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 120
+
 	#Wild Potato generation
 	[world.wild_potatoes]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 100
+
 	#Red Mushroom Colony generation
 	[world.red_mushroom_colonies]
 		#Chance of generating clusters. Smaller value = more frequent.
@@ -82,11 +93,13 @@
 		chance = 15
 		#Generate red mushroom colonies on mushroom fields
 		genRedMushroomColony = true
+
 	#Wild Carrot generation
 	[world.wild_carrots]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 120
+
 	#Brown Mushroom Colony generation
 	[world.brown_mushroom_colonies]
 		#Chance of generating clusters. Smaller value = more frequent.
@@ -94,6 +107,7 @@
 		chance = 15
 		#Generate brown mushroom colonies on mushroom fields
 		genBrownMushroomColony = true
+
 	#Wild Rice generation
 	[world.wild_rice]
 		#Chance of generating clusters. Smaller value = more frequent.

@@ -73,6 +73,7 @@ maxWireLength = 16
 	#Top Speed of a basic motor
 	#Range: 1.0 ~ 1.7976931348623157E308
 	basicMotorSpeed = 128.0
+
 ["Motor Extensions"]
 	#Power Multiplier of a basic motor extension
 	#Range: 1.0 ~ 1.7976931348623157E308

@@ -7,6 +7,7 @@
 	#These packets help animations to be more accurate when tps is below 20.
 	#Range: > 5
 	tickrateSyncTimer = 20
+
 #.
 #Packmakers' control panel for internal recipe compat
 [recipes]
@@ -58,6 +59,7 @@
 	#.
 	#Display vanilla Log-stripping interactions in JEI.
 	displayLogStrippingRecipes = true
+
 #.
 #Parameters and abilities of Create's kinetic mechanisms
 [kinetics]
@@ -131,6 +133,7 @@
 		#Maximum distance in blocks from where Fans can pull entities.
 		#Range: > 5
 		fanPullDistance = 20
+
 	#.
 	#Moving Contraptions
 	[kinetics.contraptions]
@@ -199,6 +202,11 @@
 		#Maximum allowed distance of two coupled minecarts.
 		#Range: > 1
 		maxCartCouplingLength = 32
+		#.
+		#Whether stabilised bearings create a separated entity even on non-rotating contraptions.
+		#[Technical]
+		stabiliseStableContraptions = false
+
 	#.
 	#Configure speed/capacity levels for requirements and indicators.
 	[kinetics.stats]
@@ -232,10 +240,11 @@
 		#Minimum added Capacity by sources to be considered 'high'
 		#Range: 0.0 ~ 65535.0
 		highCapacity = 1024.0
-	[kinetics.stressValues]
+
 		#.
 		#Fine tune the kinetic stats of individual components
 		[kinetics.stressValues.v2]
+
 			#.
 			#.
 			#[in Stress Units]
@@ -287,6 +296,7 @@
 				speedometer = 0.0
 				millstone = 4.0
 				shaft = 0.0
+
 			#.
 			#[in Stress Units]
 			#Configure how much stress a source can accommodate for.
@@ -298,6 +308,7 @@
 				windmill_bearing = 512.0
 				steam_engine = 1024.0
 				water_wheel = 32.0
+
 #.
 #Create's liquid manipulation tools
 [fluids]
@@ -341,6 +352,7 @@
 	#.
 	#Whether hose pulleys should be allowed to place fluid sources.
 	fluidFillPlaceFluidSourceBlocks = true
+
 #.
 #Tweaks for logistical components
 [logistics]
@@ -376,6 +388,7 @@
 	#Maximum possible distance in blocks between data gatherers and their target.
 	#Range: > 1
 	displayLinkRange = 64
+
 #.
 #Everything related to Schematic tools
 [schematics]
@@ -384,9 +397,8 @@
 	#Range: > 100
 	schematicIdleTimeout = 600
 	#.
-	#[in KiloBytes]
-	#The maximum allowed file size of uploaded Schematics.
-	#Range: > 16
+	#The amount of Schematics a player can upload until previous ones are overwritten.
+	#Range: > 1
 	maxSchematics = 256
 	#.
 	#.
@@ -397,22 +409,24 @@
 	#The maximum packet size uploaded Schematics are split into.
 	#Range: 256 ~ 32767
 	maxSchematicPacketSize = 1024
+	#.
+	#[in KiloBytes]
+	#The maximum allowed file size of uploaded Schematics.
+	#Range: > 16
+	maxTotalSchematicSize = 256
 
 	#.
 	#Schematicannon
 	[schematics.schematicannon]
 		#.
-		#% of Schematicannon's Fuel filled by 1 Gunpowder.
-		#Range: 0.0 ~ 100.0
-		schematicannonGunpowderWorth = 20.0
-		#.
-		#% of Schematicannon's Fuel used for each fired block.
-		#Range: 0.0 ~ 100.0
-		schematicannonFuelUsage = 0.05000000074505806
-		#.
 		#Amount of game ticks between shots of the cannon. Higher => Slower
 		#Range: > 1
 		schematicannonDelay = 10
+		#.
+		#Amount of blocks a Schematicannon can print per Gunpowder item provided.
+		#Range: > 1
+		schematicannonShotsPerGunpowder = 400
+
 #.
 #Equipment and gadgets added by Create
 [equipment]
@@ -448,6 +462,7 @@
 	#Amount of free Potato Cannon shots provided by one filled Copper Backtank. Set to 0 makes Potato Cannons unbreakable
 	#Range: > 0
 	maxPotatoCannonShots = 200
+
 #.
 #Create's builtin Railway systems
 [trains]
@@ -490,6 +505,7 @@
 		#The acceleration of powered Trains.
 		#Range: 0.0 ~ 3.4028234663852886E38
 		poweredTrainAcceleration = 3.0
+
 	#.
 	#Standard Trains
 	[trains.trainStats]

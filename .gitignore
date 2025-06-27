@@ -17,6 +17,7 @@
 /options.txt
 
 /config/minihud
+/config/jamlib/known_suspicious_jars.txt
 
 *.zip
 *.jar
