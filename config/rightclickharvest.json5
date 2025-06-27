@@ -6,7 +6,7 @@
 	/* - default: NONE
 	   - must be one of: NONE, LOW, NORMAL, HIGH
 	*/
-	hungerLevel: "NORMAL",
+	hungerLevel: "HIGH",
 	/* - default: NONE
 	   - must be one of: NONE, COST, REWARD
 	*/
