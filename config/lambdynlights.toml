@@ -160,6 +160,9 @@ mode = "fancy"
 				chain_knot = true
 				chain_collision = true
 
+			[light_sources.settings.entities.amendments]
+				falling_lantern = true
+
 			[light_sources.settings.entities.universal_graves]
 				xp = true
 
@@ -270,8 +273,14 @@ mode = "fancy"
 				icicle = true
 				ice_cube = true
 
+			[light_sources.settings.entities.travelersbackpack]
+				backpack = true
+
 			[light_sources.settings.entities.betterarcheology]
 				bombentity = true
+
+			[light_sources.settings.entities.overweight_farming]
+				overweight_apple_falling_block = true
 
 			[light_sources.settings.entities.twigs]
 				pebble = true

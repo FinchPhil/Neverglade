@@ -18,6 +18,7 @@
 
 /config/minihud
 /config/jamlib/known_suspicious_jars.txt
+config/cubes-without-borders.json
 
 *.zip
 *.jar
