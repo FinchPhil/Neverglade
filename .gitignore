@@ -15,6 +15,7 @@
 /xaero*
 /irisUpdateInfo.json
 /options.txt
+/knownkeys.txt
 
 /config/minihud
 /config/jamlib/known_suspicious_jars.txt

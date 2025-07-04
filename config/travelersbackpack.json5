@@ -61,7 +61,7 @@
 		// Prevents more than one player from accessing the backpack at the same time when it's placed on the ground
 		"preventMultiplePlayersAccess": false,
 		// Backpack immune to any damage source (lava, fire), can't be destroyed, never disappears as floating item
-		"invulnerableBackpack": true,
+		"invulnerableBackpack": false,
 		// List of items that can be put in tool slots (Use registry names, for example: minecraft:apple, minecraft:flint)
 		"toolSlotsAcceptableItems": [],
 		// List of items that can't be put in backpack inventory (Use registry names, for example: minecraft:apple, minecraft:flint)
@@ -71,7 +71,7 @@
 		// Allows putting shulker boxes and other items with inventory in backpack
 		"allowShulkerBoxes": false,
 		// Prevents backpack disappearing in void, spawns floating backpack above minimum Y when player dies in void
-		"voidProtection": true,
+		"voidProtection": false,
 		// Places backpack at place where player died
 		"backpackDeathPlace": true,
 		// Places backpack at place where player died, replacing all blocks that are breakable and do not have inventory (backpackDeathPlace must be true in order to work)
@@ -126,7 +126,7 @@
 			"minecraft:piglin"
 		],
 		// Defines spawn chance of entity with a backpack
-		"chance": 0.004999999888241291,
+		"chance": 9.999999747378752E-6,
 		// List of backpacks that can spawn on overworld mobs
 		"overworldBackpacks": [
 			"travelersbackpack:standard",
@@ -250,7 +250,7 @@
 			"offsetY": 30
 		},
 		// Whether the backpack icon should be visible in player's inventory
-		"showBackpackIconInInventory": true,
+		"showBackpackIconInInventory": false,
 		// Sends a message to the player on death with backpack coordinates
 		"sendBackpackCoordinatesMessage": true,
 		// Enables tool cycling via keybind (Default Z) + scroll combination, while backpack is worn

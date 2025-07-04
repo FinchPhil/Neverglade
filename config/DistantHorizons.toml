@@ -682,7 +682,7 @@ _version = 3
 				# 0.0: Fog starts at the player's position. 
 				# 1.0: Fog starts at the closest edge of the vanilla render distance. 
 				# 1.414: Fog starts at the corner of the vanilla render distance.
-				farFogStart = "0.4"
+				farFogStart = "0.0"
 				#
 				# What is the minimum fog thickness? 
 				# 
